@@ -35,7 +35,7 @@ function togglePlayPause() {
             loadingInterval = setInterval(updateLoadingProgress, 500);
         } else {
             musicTitle.classList.remove('hidden');
-            musicTitle.textContent = 'skinnyfabs - ghost';
+            musicTitle.textContent = 'qbcle - virtual hug';
             playMusic();
         }
     }
@@ -50,7 +50,7 @@ function updateLoadingProgress() {
         clearInterval(loadingInterval);
         loadingText.classList.add('hidden');
         musicTitle.classList.remove('hidden');
-        musicTitle.textContent = 'skinnyfabs - ghost';
+        musicTitle.textContent = 'qbcle - virtual hug';
         isLoaded = true;
         playMusic(); 
     }
