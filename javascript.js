@@ -1,15 +1,20 @@
 document.getElementById('reveal-btn').addEventListener('click', function() {
-    document.getElementById('secondcard').scrollIntoView({
-        behavior: 'smooth'
-    });
-});
-document.getElementById('lanjut1').addEventListener('click', function() {
     document.getElementById('card1').scrollIntoView({
         behavior: 'smooth'
     });
 });
-document.getElementById('card1').addEventListener('click', function() {
-    document.getElementById('thirdcard').scrollIntoView({
+document.getElementById('lanjut1').addEventListener('click', function() {
+    document.getElementById('card2').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+document.getElementById('lanjut2').addEventListener('click', function() {
+    document.getElementById('card3').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+document.getElementById('lanjut3').addEventListener('click', function() {
+    document.getElementById('card4').scrollIntoView({
         behavior: 'smooth'
     });
 });
