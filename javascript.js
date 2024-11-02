@@ -55,7 +55,7 @@ function updateLoadingProgress() {
         clearInterval(loadingInterval);
         loadingText.classList.add('hidden');
         musicTitle.classList.remove('hidden');
-        musicTitle.textContent = 'qbcle - virtual hug';
+        musicTitle.textContent = 'glass animals - take a slice';
         isLoaded = true;
         playMusic(); 
     }
