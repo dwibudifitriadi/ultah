@@ -73,10 +73,10 @@ const emojiSmile = document.getElementById('emojiSmile');
 const sendBtn = document.getElementById('sendBtn');
 let selectedReaction = '';
 emojiSad.addEventListener('click', () => {
-    selectedReaction = '😢';
+    selectedReaction = '😊🎂';
 });
 emojiSmile.addEventListener('click', () => {
-    selectedReaction = '😊';
+    selectedReaction = '😒👍';
 });
 sendBtn.addEventListener('click', () => {
     const message = messageInput.value;
